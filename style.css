@@ -1,0 +1,124 @@
+* {
+    font-family: Impact, Charcoal, sans-serif;
+
+}
+nav ul {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+    color: #00AAAF;
+
+    
+;}
+
+p {
+    width: 60%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    color: #00AAAF;
+    background-color: #DFF6F7;
+    border:#00AAAF 2px solid;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #00AAAF;
+    color: white;
+}
+.landingpageimg {
+    width: 100%;
+    height: 400px;
+}
+
+.mantra {
+    text-align: center;
+}
+
+.health,
+.beauty {
+    font-size:40px;
+}
+
+.health {
+    color: #63DFF7;
+}
+
+.beauty {
+    color:#00AAAF;
+}
+
+.featuredServiceWrapper {
+    color: #524F4F;
+    text-align: center;
+    width: 75%;
+    background-color: #DFF6F7;
+    margin: auto;
+    padding: 30px;
+}
+
+.featuredServiceWrapperBody {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.featuredServiceWrapperBody img {
+    width: 150px;
+
+}
+
+.featuredServiceWrapperBody li {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.aboutUswrapper {
+    background-color: #FAFAFA;
+    margin: 50px 0px;
+}
+ 
+.aboutUswrapper h1 {
+    text-align: center; 
+    padding: 30px;
+}
+
+.aboutUswrapperBody {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUsTitle {
+    font-size: 30px;
+}
+
+.providerPhoto {
+    border-radius: 50%;
+}
+
+
+.footerwrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footerleft {
+    text-align: center;
+}
+
+.footercenter p {
+    width: 30%;
+}
