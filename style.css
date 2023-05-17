@@ -1,12 +1,13 @@
 * {
-    font-family: Impact, Charcoal, sans-serif;
+    /*font-family: Impact, Charcoal, sans-serif;*/
+    font-family: 'Avenir Next',sans-serif;
     letter-spacing: 1px;
     line-height: 25px;
     font-size: 14px;
 
 }
 nav ul {
-    width: 60%;
+    width: 70%;
     display: flex;
     margin: auto;
     justify-content: space-around;
@@ -85,8 +86,43 @@ button:hover {
     height: 400px;
 }
 
+.testimonialWrapper {
+background-color: #00AAAF;
+width: auto;
+height: 50px;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.testimonialButton {
+    color: #00AAAF;
+    border-radius: 5%;
+    height: 40px;
+    width: 175px;
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid #00AAAF;
+    padding: 5px;
+}
+
+.testimonialButton:hover {
+    background-color: white;
+    font-size: 22px;
+    color: #00AAAF;
+
+}
+
+.testimonialIntro {
+    color: white;
+    font-size: 20px;
+}
+
 .mantra {
     text-align: center;
+    margin-top: 30px;
 }
 
 .health,
@@ -111,6 +147,11 @@ button:hover {
     padding: 30px;
 }
 
+.featuredServiceWrapper h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 .featuredServiceBody {
     display: flex;
     justify-content: space-evenly;
@@ -122,8 +163,14 @@ button:hover {
 }
 
 .featuredServiceBody li {
-    font-size: 18px;    
+    font-size: 18px; 
 }
+
+.featuredServiceBody h2 { 
+    font-weight: 700;
+
+}
+
 
 .aboutUsWrapper {
     background-color: #FAFAFA;
@@ -137,6 +184,7 @@ button:hover {
 .aboutUsWrapper h1 {
     text-align: center; 
     padding: 30px;
+    font-size: 24px;
 }
 
 .aboutUsBody {
@@ -180,10 +228,10 @@ button:hover {
 }
 
 .freezeTitle {
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 700;
     color: #00AAAF;
-    Margin 10px auto;
+    Margin: 10px auto;
 }
 
 .footerLeft,
@@ -243,6 +291,12 @@ table {
     border-style: hidden;
 }
 
+.serviceLeft h2,
+.serviceRight h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
 
 
 
@@ -299,4 +353,12 @@ font-size: 30px;
     justify-content: space-around;
 }
 
-.viewMore {text-align: center;}
+.viewMore {
+    text-align: center;
+}
+
+.servicePageServices {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
